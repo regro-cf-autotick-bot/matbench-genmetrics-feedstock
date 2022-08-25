@@ -29,6 +29,8 @@ requirements:
     - scipy
     - python >=3.6
     - importlib-metadata
+    - element-coder
+    - pystow
 test:
   imports:
     - matbench_genmetrics
