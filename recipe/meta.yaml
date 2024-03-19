@@ -1,5 +1,5 @@
 {% set name = "matbench-genmetrics" %}
-{% set version = "0.2.1" %}
+{% set version = "0.6.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/matbench-genmetrics-{{ version }}.tar.gz
-  sha256: 7cf990114d895ab5f9c0247ba3ba6e3adf58eeecad63afa696165564a5c9e4ba
+  sha256: 87b885fb8cb8f71e8e94c135874e10c826e00362a539d3f8c7f459a7cb759997
 
 build:
   entry_points:
